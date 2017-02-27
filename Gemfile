@@ -18,7 +18,7 @@ end
 gem 'simplecov', require: false, group: :test
 
 group :rails do
-  gem "rails" , "~> 4.2.0"
+  gem "rails" , "~> 4.2.8"
   gem "rspec-rails", "~> 2.14"
   gem "coffee-rails", "~> 4.0.1"
   gem "therubyracer", "~> 0.12.0"
@@ -26,6 +26,6 @@ end
 
 group :mongoid do
   gem 'bson_ext'
-  gem 'kaminari', '~> 0.16.1'
+  gem 'kaminari', '~> 1.0.1'
   gem 'mongoid', '~> 4.0.0'
 end
